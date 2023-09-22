@@ -1,59 +1,32 @@
-## Introduction
+From the `Input`{:class="microbitinput"} menu drag the `on button pressed`{:class="microbitinput"} block into the workspace.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+There are **three** options to choose from the drop down menu:
+1. `on button A pressed`{:class="microbitinput"} will trigger when button A is pressed
+2. `on button B pressed`{:class="microbitinput"} will trigger when button B is pressed
+3. `on button A + B pressed`{:class="microbitinput"} will trigger when button A and B are pressed at the same time.
 
-### What you will make
+```microbit
+input.onButtonPressed(Button.A, function () {
+	
+})
+input.onButtonPressed(Button.AB, function () {
+	
+})
+input.onButtonPressed(Button.B, function () {
+	
+})
+```
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Within the `on button pressed`{:class="microbitinput"} you can add the action you want to happen.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+```microbit
+input.onButtonPressed(Button.A, function () {
+    basic.showString("Hello!")
+})
+input.onButtonPressed(Button.B, function () {
+    music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.showIcon(IconNames.Heart)
+})
+```
