@@ -30,3 +30,5 @@ input.onButtonPressed(Button.AB, function () {
     basic.showIcon(IconNames.Heart)
 })
 ```
+
+Run your code, and when you press the buttons, you should see or hear the different outputs.
