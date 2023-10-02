@@ -1,0 +1,9 @@
+title: Using buttons to trigger an action 
+hero_image: images/banner.png
+description: Use the micro:bit physical buttons to trigger an action
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-05-19"
+steps:
+  - title: Introduction
