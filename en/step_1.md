@@ -3,7 +3,7 @@ From the `Input`{:class="microbitinput"} menu, drag the `on button pressed`{:cla
 There are **three** options to choose from the drop-down menu:
 1. `on button A pressed`{:class="microbitinput"} will trigger when button A is pressed
 2. `on button B pressed`{:class="microbitinput"} will trigger when button B is pressed
-3. `on button A + B pressed`{:class="microbitinput"} will trigger when button A and B are pressed at the same time
+3. `on button A + B pressed`{:class="microbitinput"} will trigger when buttons A and B are pressed at the same time
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
