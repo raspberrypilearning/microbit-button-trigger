@@ -1,10 +1,10 @@
-title: Using buttons to trigger an action
+title: Knoppen gebruiken om een actie te activeren
 hero_image: images/banner.png
-description: Use the micro:bit physical buttons to trigger an action
+description: Gebruik de fysieke micro:bit-knoppen om een actie te activeren
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-05-19"
 steps:
   - 
-    title: Introduction
+    title: Inleiding
