@@ -1,10 +1,10 @@
-Sleep vanuit het `Invoer`{:class='microbitinput'} menu een `wanneer knop wordt ingedrukt`{:class='microbitinput'} blok in het bewerkingspaneel.
+From the `Input`{:class="microbitinput"} menu, drag the `on button pressed`{:class="microbitinput"} block into the workspace.
 
-Er zijn **drie** opties waaruit je kunt kiezen in het vervolgkeuzemenu:
+There are **three** options to choose from the drop-down menu:
 
 1. `wanneer knop A wordt ingedrukt`{:class="microbitinput"} wordt geactiveerd wanneer knop A wordt ingedrukt
 2. `wanneer knop B wordt ingedrukt`{:class="microbitinput"} wordt geactiveerd wanneer knop B wordt ingedrukt
-3. `wanneer knop A+B wordt ingedrukt`{:class="microbitinput"} wordt geactiveerd wanneer knop A en B tegelijkertijd worden ingedrukt.
+3. `on button A + B pressed`{:class="microbitinput"} will trigger when buttons A and B are pressed at the same time
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -18,7 +18,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-Binnen het `wanneer knop wordt ingedrukt`{:class="microbitinput"} blok kun je de actie toevoegen die je wilt doen.
+You can add the action you want to happen within the `on button pressed`{:class="microbitinput"} block.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
