@@ -1,10 +1,10 @@
-From the `Input`{:class="microbitinput"} menu drag the `on button pressed`{:class="microbitinput"} block into the workspace.
+Sleep vanuit het `Invoer`{:class='microbitinput'} menu een `wanneer knop wordt ingedrukt`{:class='microbitinput'} blok in het bewerkingspaneel.
 
-There are **three** options to choose from the drop down menu:
+Er zijn **drie** opties waaruit je kunt kiezen in het vervolgkeuzemenu:
 
-1. `on button A pressed`{:class="microbitinput"} will trigger when button A is pressed
-2. `on button B pressed`{:class="microbitinput"} will trigger when button B is pressed
-3. `on button A + B pressed`{:class="microbitinput"} will trigger when button A and B are pressed at the same time.
+1. `wanneer knop A wordt ingedrukt`{:class="microbitinput"} wordt geactiveerd wanneer knop A wordt ingedrukt
+2. `wanneer knop B wordt ingedrukt`{:class="microbitinput"} wordt geactiveerd wanneer knop B wordt ingedrukt
+3. `wanneer knop A+B wordt ingedrukt`{:class="microbitinput"} wordt geactiveerd wanneer knop A en B tegelijkertijd worden ingedrukt.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -18,7 +18,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-Within the `on button pressed`{:class="microbitinput"} you can add the action you want to happen.
+Binnen het `wanneer knop wordt ingedrukt`{:class="microbitinput"} blok kun je de actie toevoegen die je wilt doen.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -32,4 +32,4 @@ input.onButtonPressed(Button.AB, function () {
 })
 ```
 
-Run your code, and when you press the buttons, you should see or hear the different outputs.
+Voer je code uit en wanneer je op de knoppen drukt, zou je de verschillende uitgevoerde acties moeten zien of horen.
