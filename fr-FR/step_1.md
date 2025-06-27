@@ -1,10 +1,10 @@
-From the `Input`{:class="microbitinput"} menu, drag the `on button pressed`{:class="microbitinput"} block into the workspace.
+Dans le menu `Entrée`{:class="microbitinput"}, fais glisser le bloc `lorsque le bouton est pressé`{:class="microbitinput"} dans l'espace de travail.
 
-There are **three** options to choose from the drop-down menu:
+Il y a **trois** options à choisir dans le menu déroulant :
 
-1. `on button A pressed`{:class="microbitinput"} will trigger when button A is pressed
-2. `on button B pressed`{:class="microbitinput"} will trigger when button B is pressed
-3. `on button A + B pressed`{:class="microbitinput"} will trigger when buttons A and B are pressed at the same time
+1. `lorsque le bouton A est pressé`{:class="microbitinput"} se déclenchera lorsque le bouton A est enfoncé
+2. `lorsque le bouton B est pressé`{:class="microbitinput"} se déclenchera lorsque le bouton B est enfoncé
+3. `lorsque le bouton A + B est pressé`{:class="microbitinput"} se déclenchera lorsque le bouton A et B sont enfoncés en même temps
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -18,7 +18,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-You can add the action you want to happen within the `on button pressed`{:class="microbitinput"} block.
+Tu peux ajouter l'action que tu souhaites voir se produire dans le bloc `lorsque le bouton est pressé`{:class="microbitinput"}.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -32,4 +32,4 @@ input.onButtonPressed(Button.AB, function () {
 })
 ```
 
-Run your code, and when you press the buttons, you should see or hear the different outputs.
+Exécute ton code et lorsque tu appuies sur les boutons, tu devrais voir ou entendre les différentes sorties.
